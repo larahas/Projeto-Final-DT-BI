@@ -14,12 +14,12 @@ Este projeto foi desenvolvido com o objetivo de incentivar o aluno a atuar como 
 ## 2. Base de Dados Utilizada
 A análise utilizou o banco de dados **FreeSQL (Esquema Human Resources - HR)**, composto pelas seguintes tabelas:
 
-* **`EMPLOYEES`**: Dados dos funcionários (IDs, nomes, salários, cargos e departamentos).
-* **`DEPARTMENTS`**: Mapeamento dos nomes dos departamentos.
-* **`JOBS`**: Títulos de cargos e faixas salariais permitidas.
-* **`LOCATIONS`**: Endereços e cidades de alocação dos funcionários.
-* **`COUNTRIES`**: Países de atuação da empresa.
-* **`REGIONS`**: Regiões geográficas globais.
+* **`FUNCIONÁRIOS`**: Dados dos funcionários (IDs, nomes, salários, cargos e departamentos).
+* **`DEPARTAMENTOS`**: Mapeamento dos nomes dos departamentos.
+* **`CARGOS`**: Títulos de cargos e faixas salariais permitidas.
+* **`LOCALIZAÇÕES`**: Endereços e cidades de alocação dos funcionários.
+* **`PAÍSES`**: Países de atuação da empresa.
+* **`REGIÕES`**: Regiões geográficas globais.
 
 ---
 
@@ -73,8 +73,15 @@ A etapa de análise em Python foi desenvolvida no script `analise.py`, utilizand
 ![Boxplot por Departamento](boxplot_salarios_departamento.png)
 
 ---
+## 6. Sugestões de Melhorias
 
-## 6. Como Executar o Projeto
+Implementar análise de correlação entre o tempo de empresa (data de contratação) e a evolução salarial.
+Criar um dashboard interativo no Power BI ou Streamlit para visualização dos indicadores e métricas de recursos humanos em tempo real pela diretoria.
+Analisar a disparidade salarial por gênero e faixa de cargo dentro de cada região geográfica.
+
+---
+
+## 7. Como Executar o Projeto
 
 ### **Pré-requisitos:**
 * Python 3.x instalado na máquina.
@@ -90,11 +97,3 @@ git clone https://github.com/SEU_USUARIO/Projeto-Final-DT-BI.git
 cd Projeto-Final-DT-BI
 Execute a análise em Python:
 python analise.py
-
----
-
-## 7. Sugestões de Melhorias
-
-Implementar análise de correlação entre o tempo de empresa (data de contratação) e a evolução salarial.
-Criar um dashboard interativo no Power BI ou Streamlit para visualização dos indicadores e métricas de recursos humanos em tempo real pela diretoria.
-Analisar a disparidade salarial por gênero e faixa de cargo dentro de cada região geográfica.
