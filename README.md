@@ -93,7 +93,7 @@ No terminal do seu ambiente, execute:
 pip install pandas matplotlib
 Execução do Script:
 Clone o repositório:
-git clone https://github.com/SEU_USUARIO/Projeto-Final-DT-BI.git
+git clone https://github.com/larahas/Projeto-Final-DT-BI.git
 cd Projeto-Final-DT-BI
 Execute a análise em Python:
 python analise.py
